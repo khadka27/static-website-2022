@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In Page</title>
+    <link rel="stylesheet" href="/css/signInPageStyle.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.2.1-web/css/all.css">
+</head>
+<body>
+    <div class="signInPage">
+        <div class="pageHeader">
+            <nav class="header">
+                <div style="width: 70px; height: 70px;" >
+                    <button class="logoDiv">
+                        <img class="bonsaiSenpaiLogo" src="/images/BonsaiSenpaiLogo.png" width="100%" height="100%">
+                    </button>
+                
+                </div>
+                
+                <div>
+                    <ul>
+                        <li><a class="remaining" href="/html/homePage.html">Home</a></li>
+                        <li><a class="remaining" href="/html/blogPage.html">Blog</a></li>
+                        <li><a class="remaining" href="/html/product.html">Product</a></li>
+                        <li><a class="remaining" href="/html/research.html">Research</a></li>
+                        <li><a class="remaining" href="/html/AboutUS.html">About us</a></li>
+                    </ul>
+                </div>
+                <div class="cartAndSignIn" style="float: right;">
+                    <button class="cartButton">
+                        <a class="cart" href="/html/product.html">
+                            <img class="cartLogo" src="/images/cartLogo.PNG">
+                        </a>
+                    </button>
+                    <button class="signInButton">
+                        <a class="signIn" href="/html/signInPage.html">
+                            <img class="signInImage" src="/images/signIn.PNG">
+                            <p class="signInText">Sign In</p>
+                        </a>
+                    </button>
+                </div>
+            </nav>
+        </div>
+        <div class="pageBody">
+            <div id="signIn-form" class="signIn-Page">
+                <!-- creating the form box -->
+            <div class="signInSection">
+                <div class="button-box">
+                    <button class="toggle-btn">
+                        Sign In
+                    </button>
+                </div>
+                <!-- creating Sign In form -->
+                <form id="login" class="input-group-login">
+                    <input type="text" class="input-field" placeholder="Email Id" required>
+                    <input type="password" class="input-field" placeholder="Enter Password" required>
+                    <input type="checkbox" class="check-box"><span class="span1">Remember Password</span>
+                    <button type="submit" class="submit-btn">Sign In</button>
+                </form>
+                <p class="donotHaveAnAccount">
+                    Don't have an account.
+                    <a class="signUpTo" href="signUpPage.html">Sign Up</a>
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+
+        <div class="footer-container">
+            <div class="inner-one">
+                <img src="/images/Logo.png" alt="Logo" width="150px">
+            </div>
+            <div class="inner-two">
+                <p class="text-muted mb-0 py-2" id="copyright">
+                    © 2023 Bonsai Senpai All rights reserved.
+                </p>
+            </div>
+            <div class="inner-three">
+                <div class="footer-link">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook -f"></i></a>
+                    <a href="https://twitter.com/"><i class="fab fa-twitter -f"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram -f"></i></a>
+                    <a href="https://telegram.org/"><i class="fab fa-telegram -f"></i></a>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

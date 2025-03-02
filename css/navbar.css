@@ -1,0 +1,142 @@
+/* start of navbar */
+
+.header {
+    background-color: rgb(104, 96, 96);
+    flex: 1;
+    z-index: 9999;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 1%;
+    padding-right: 2%
+    
+}  
+.header:hover {
+    background-color: rgb(79, 76, 76);
+    transition: 1s;
+}  
+
+.logoDiv {
+    border-radius: 35px;
+    border-color: rgb(255, 255, 255);
+    border-width: 0.2px;
+    border-style: solid;
+}
+.logoDiv:hover {
+    border-color: rgb(64, 240, 5);
+}
+
+.bonsaiSenpaiLogo {
+    border-radius: 35px;
+}
+
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a.shop {
+    color: rgb(114, 108, 108);
+    text-decoration: none;
+    font-family: serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px;
+}
+
+nav ul li a.remaining {
+    color: white;
+    font-family: serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 7px;
+}
+
+nav ul li a.remaining:hover {
+    color: rgb(114, 108, 108);
+    transition: 0.5s;
+}
+
+nav ul li a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+}
+
+
+a.shop,a.remaining:hover {
+    background: white;
+    border-radius: 5px;
+}
+
+
+
+.cartAndSignIn {
+    display: flex;
+}
+
+.cartLogo {
+    height: 30px;
+    border-radius: 50px;    
+}
+
+.cartButton {
+    border-radius: 50px;
+    height: 35px;
+    width: 35px;
+    margin-right: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+.cartButton:hover {
+    border-color: red;
+}
+.cartButton:active {
+    border-color: #1d9d11;
+}
+
+
+.signIn {
+    display: flex;
+}
+.signInImage {
+    height: 22px;
+    border-radius:20px;
+}
+.signInText {
+    margin-top: 4px;
+    color: black;
+    font-size: 13px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.signInButton {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    height: 35px;
+    border-width: 1px;
+    padding-right: 5px;
+    border-radius: 50px;
+    cursor: pointer;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    border-style: solid;
+}
+
+
+.signInButton:hover {
+    text-decoration: underline;
+    /* background-color: #91f089; */
+    color: rgb(34, 23, 23);
+    border-color: rgb(1, 255, 31);
+}
+
+/*                               end of navbar                       */

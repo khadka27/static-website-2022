@@ -1,0 +1,23 @@
+/* footer is kept in a flex container  */
+
+.footer-container{
+    display: flex;
+    background-color: rgb(133, 129, 129);
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.inner-two{
+    display: inline-block;
+}
+
+.footer-link a{
+    color: white;
+    padding: 10px 10px;
+    transition: all 0.5 ease;
+}
+
+.footer-link a:hover{
+    color: rgb(255, 0, 0);
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product 3</title>
+    <link rel="stylesheet" href="/css/productdes.css">
+    <link rel="stylesheet" href="../assets/fontawesome-free-6.2.1-web/css/all.css">
+</head>
+
+<body>
+
+    <div id="img1">
+        <img src="/images/3.png" alt="">
+    </div>
+    <div id="con1">
+        <h2>Pine Bonsai</h2>
+        <br>
+        <div class="stars ">
+            <!-- .......................   review star section   -->
+            <i class="fa fa-star "></i>
+            <i class="fa fa-star "></i>
+            <i class="fa fa-star "></i>
+            <i class="fa fa-star "></i>
+            <i class="fa fa-star-half "></i>
+            <span>(2.5M)</span>
+        </div>
+        <br>
+        <h4>Brand : Bonsai Senpai</h4>
+        <br>
+        <div class="price ">
+            <b>NRP 40000</b> <span> <s id="cut"><sub> NRP 50000</sub></s> <sup>-10%</sup> </span>
+        </div>
+        <br>
+        <label class="qty ">Quantity</label>
+        <select class="opt ">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10 +</option>
+                </select>
+        <br><br>
+        <button onclick="bye() "> BUY </button>
+
+        <button onclick="myFunction() " id="alert-button "><i class="fa-solid fa-cart-shopping ">Add To Cart</i></button>
+        <br><br>
+        <div>
+            <h4>Description</h4>
+            <p id="des">Pine bonsai trees are small trees that have been trained and pruned to grow in a small pot or container, creating the appearance of a mature pine tree in miniature form. Bonsai is a traditional art form that involves carefully training and
+                pruning a tree to create a desired shape and style.its small size.</p>
+        </div>
+        <a href="/html/product.html">
+
+            <abbr title=" Go Back "><i class="fa-solid fa-xmark" id="gotoback"></i></abbr>
+        </a>
+    </div>
+
+
+
+
+
+    <script>
+        function myFunction() {
+            var newLine = "\r\n";
+            var msg = "successfully add to cart";
+            msg += newLine;
+            msg += "Thankyou for Buying❤️";
+            msg += newLine;
+            msg += "Thankyou for visiting ";
+            msg += newLine;
+            msg += "Visiting Again";
+            alert(msg);
+        }
+
+        function bye() {
+            var newLine = "\r\n";
+            var msg = "Thankyou for Buying❤️";
+
+            alert(msg);
+        }
+    </script>
+</body>
+
+</html>
